@@ -32,5 +32,5 @@
  
  
 ## Credits
- - Marco Bonanini, author of Mastering Social Media Mining
+ - Marco Bonanini, Data Scientist
  - Mohammad Shahebaz
