@@ -1,6 +1,6 @@
 # Tweagle
  
- ![alt](https://scontent.fwgc1-1.fna.fbcdn.net/v/t31.0-8/22713289_1463998470316749_4174150394108329180_o.jpg?oh=041c043bd3bfa93a273cdaef19edd04c&oe=5A63879C)
+ ![alt](Screen Shot 2018-02-12 at 8.17.55 PM.jpg)
  
 ## Requirements
 1. Tweepy
