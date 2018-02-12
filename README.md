@@ -1,6 +1,6 @@
 # Tweagle
  
- ![alt](Screen Shot 2018-02-12 at 8.17.55 PM.jpg)
+ ![alt](https://github.com/shaz13/tweagle/blob/master/Screen%20Shot%202018-02-12%20at%208.17.55%20PM.jpg)
  
 ## Requirements
 1. Tweepy
