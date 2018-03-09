@@ -6,9 +6,9 @@ def get_mentions(tweet):
     entities = tweet.get('entities', {})
     hashtags = entities.get('user_mentions', [])
     return [tag['screen_name'] for tag in hashtags]
-print "=="*30
+print ("=="*30)
 print ("Mentions frequency")
-print "=="*30, "\n"
+print ("=="*30, "\n")
 if __name__ == '__main__':
     fname = sys.argv[1]
     with open(fname, 'r') as f:

@@ -43,4 +43,4 @@ if __name__ == '__main__':
         # some_mutual_friends = ', '.join(sample(mutual_friends, 5))
         print("Printing all mutual friends")
         for friends in mutual_friends:
-            print friends
+            print (friends)

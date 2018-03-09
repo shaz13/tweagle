@@ -25,10 +25,10 @@ if __name__ == '__main__':
         print("Error while creating directory {}".format(dirname))
         print(e)
         sys.exit(1)
-    print "Building timeline JSON file for {}...".format(user)
+    print ("Building timeline JSON file for {}...".format(user))
     fname = "{}/user_timeline_{}.jsonl".format(dirname,user)
     with open(fname, 'w') as f:
         for page in Cursor(client.user_timeline, screen_name=user, count=200).pages(16):
             for status in page:
                 f.write(json.dumps(status._json)+"\n")
-    print "Timeline successfully exported to {}".format(dirname)
+    print ("Timeline successfully exported to {}".format(dirname))

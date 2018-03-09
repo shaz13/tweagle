@@ -29,9 +29,9 @@ if __name__ == '__main__':
         tweets_total = tweets_no_hashtags + tweets_with_hashtags
         tweets_with_hashtags_percent = "%.2f" % (tweets_with_hashtags / tweets_total * 100)
         tweets_no_hashtags_percent = "%.2f" % (tweets_no_hashtags / tweets_total * 100)
-        print "=="*30
+        print ("=="*30)
         print ("Hashtag stats")
-        print "=="*30, "\n"
+        print ("=="*30, "\n")
         print("{} tweets without hashtags ({}%)".format(tweets_no_hashtags, tweets_no_hashtags_percent))
         print("{} tweets with at least one hashtag ({}%)".format(tweets_with_hashtags, tweets_with_hashtags_percent))
 

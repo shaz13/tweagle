@@ -33,7 +33,7 @@ if __name__ == '__main__':
         print("Error while creating directory {}".format(dirname))
         print(e)
         sys.exit(1)
-    print "Building follower.jsonl for {}".format(screen_name)
+    print ("Building follower.jsonl for {}".format(screen_name))
     # get followers for a given user
     fname = "users/{}/followers.jsonl".format(screen_name)
     if os.path.isfile(fname): # returns whether the file exists or not
@@ -48,7 +48,7 @@ if __name__ == '__main__':
                 if len(followers) == 5000:
                     print("More results available. Sleeping for 60 seconds to avoid rate limit")
                     time.sleep(60)
-        print "Building friends.jsonl for {}...".format(screen_name)
+        print ("Building friends.jsonl for {}...".format(screen_name))
         # get friends for a given user
         fname = "users/{}/friends.jsonl".format(screen_name)
         with open(fname, 'w') as f:

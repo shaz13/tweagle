@@ -38,9 +38,9 @@ def normalize_contractions(tokens):
                 yield item
         else:
             yield tok
-print "=="*30
+print ("=="*30)
 print ("Term frequency")
-print "=="*30, "\n"
+print ("=="*30, "\n")
 if __name__ == '__main__':
     tweet_tokenizer = TweetTokenizer()
     punct = list(string.punctuation)
@@ -56,4 +56,4 @@ if __name__ == '__main__':
                              stopwords=stopword_list)
             tf.update(tokens)
         for tag, count in tf.most_common(30):
-            print "{},{}".format(tag.encode('utf-8'), count)
+            print ("{},{}".format(tag.encode('utf-8'), count))

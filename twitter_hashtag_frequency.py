@@ -6,9 +6,9 @@ def get_hashtags(tweet):
     entities = tweet.get('entities', {})
     hashtags = entities.get('hashtags', [])
     return [tag['text'].lower() for tag in hashtags]
-print "=="*30
-print "The top 20 Hashtag frequency of the users is"
-print "=="*30, "\n"
+print ( "=="*30)
+print ("The top 20 Hashtag frequency of the users is")
+print ("=="*30, "\n")
 if __name__ == '__main__':
     fname = sys.argv[1]
     with open(fname, 'r') as f:
