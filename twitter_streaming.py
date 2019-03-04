@@ -54,4 +54,4 @@ if __name__ == '__main__':
     query_fname = ' '.join(query) # string
     auth = get_twitter_auth()
     twitter_stream = Stream(auth, CustomListener(query_fname))
-    twitter_stream.filter(track=query, async=True)
+    twitter_stream.filter(track=query, is_async=True)
