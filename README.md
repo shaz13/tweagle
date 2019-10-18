@@ -33,4 +33,6 @@
  
 ## Credits
  - Marco Bonanini, Data Scientist
- The code base is heavily inspired from Marco's book on Social Media paltforms. Tweagle is a port of his work for Twitter Analytics. 
+```
+The code base is heavily inspired from Marco's book on Social Media paltforms. Tweagle is a port of his work for Twitter Analytics. 
+```
